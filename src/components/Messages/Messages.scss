@@ -1,0 +1,9 @@
+.messages {
+  background-color: var(--bg-color-03);
+  flex: 1;
+  overflow: auto;
+  @media screen and (max-width: 576px) {
+    flex: none;
+    height: 300px;
+  }
+}

@@ -1,0 +1,9 @@
+.register {
+  label {
+    color: var(--text-color);
+    img {
+      aspect-ratio: 3/2;
+      object-fit: contain;
+    }
+  }
+}

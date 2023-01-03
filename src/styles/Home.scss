@@ -1,0 +1,9 @@
+.home {
+  background-color: #fff;
+  height: 600px;
+  .container {
+    @media screen and (max-width: 576px) {
+      flex-direction: column;
+    }
+  }
+}

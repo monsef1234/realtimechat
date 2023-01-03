@@ -1,0 +1,38 @@
+.usersContainer {
+  @media screen and (max-width: 576px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .userBox {
+    transition: all 0.5s;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    @media screen and (max-width: 576px) {
+      justify-content: center;
+    }
+    &:hover {
+      background-color: var(--bg-color-01);
+    }
+    h5 {
+      @media screen and (max-width: 576px) {
+        display: none;
+      }
+    }
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    .lastMsg {
+      color: var(--text-color);
+      @media screen and (max-width: 576px) {
+        display: none;
+      }
+    }
+  }
+}

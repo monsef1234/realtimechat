@@ -1,0 +1,49 @@
+.message {
+  padding: 1rem;
+  gap: 1rem;
+  &.owner {
+    flex-direction: row-reverse;
+    .messageContent {
+      display: flex;
+      flex-direction: row-reverse;
+      h5 {
+        height: fit-content;
+        border-radius: 10px 0px 10px 10px;
+      }
+    }
+  }
+  .messageInfo {
+    flex-direction: column;
+    text-align: center;
+    small {
+      font-size: 0.6rem;
+      color: var(--text-color);
+      font-weight: 600;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+  }
+  .messageContent {
+    padding-top: 0.5rem;
+    flex: 1;
+    h5 {
+      background-color: #778acc;
+      width: fit-content;
+      padding: 5px;
+      border-radius: 0 10px 10px 10px;
+      color: #fff;
+      font-weight: 400;
+    }
+    img {
+      width: 200px;
+      height: auto;
+      object-fit: contain;
+      aspect-ratio: 3/2;
+    }
+  }
+}

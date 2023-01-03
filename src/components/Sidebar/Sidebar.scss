@@ -1,0 +1,10 @@
+aside {
+  width: 35%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
